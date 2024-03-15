@@ -10,7 +10,7 @@ Section:NewButton("AntiAfk", "AntiAfk", function ()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/luca5432/Roblox-ANTI-AFK-SCRIPT/main/Script", true))()
 end)
 
-MainSection:NewButton("Orbs", "Orbitals", function()
+MainSection:NewButton("REB", "REB", function()
 	
     local loaded = false
      
@@ -1544,7 +1544,7 @@ MainSection:NewButton("Orbs", "Orbitals", function()
         end
     end
     
-    end)
+end)
 
 
 Section:NewButton("Autofarm STATS", "STATS", function ()
