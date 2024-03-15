@@ -3113,3 +3113,11 @@ Section:NewButton("Stack Godly SSJ2 (wait 10 seconds)", "After you press wait 10
     local Event = game:GetService("ReplicatedStorage").Package.Events.ta
     Event:InvokeServer()
 end)
+
+Section:NewButton("Earth", "tp to earf", function ()
+    game.ReplicatedStorage.Package.Events.TP:InvokeServer("Earth")
+end)
+
+Section:NewButton("Vills", "tp to vills", function ()
+    game.ReplicatedStorage.Package.Events.TP:InvokeServer("Vills Planet")
+end)
