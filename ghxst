@@ -10,7 +10,7 @@ Section:NewButton("AntiAfk", "AntiAfk", function ()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/luca5432/Roblox-ANTI-AFK-SCRIPT/main/Script", true))()
 end)
 
-MainSection:NewButton("ORBITAL STAT", "1", function()
+MainSection:NewButton("AutoStatistics", "1", function()
     -- hi vortex use this one
 local loaded = false
  
