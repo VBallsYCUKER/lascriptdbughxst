@@ -1544,7 +1544,7 @@ Section:NewButton("REB", "REB", function()
         end
     end
     
-end)
+    end)
 
 
 Section:NewButton("Autofarm STATS", "STATS", function ()
