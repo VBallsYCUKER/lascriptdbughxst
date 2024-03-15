@@ -1589,8 +1589,13 @@ local Forms = {'Blanco', 'Ultra Ego', 'SSJR3', 'SSJR3', 'SSJB3',
     local Event = game:GetService("ReplicatedStorage").Package.Events.equipskill
     Event:InvokeServer(A_1)
 
+    local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+    Event:InvokeServer()
+
+
     local A_1 = "SSJBUI"
     local Event = game:GetService("ReplicatedStorage").Package.Events.equipskill
     Event:InvokeServer(A_1)
-
+    local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+    Event:InvokeServer()
 end)
