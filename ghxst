@@ -1554,6 +1554,7 @@ end
 end
 
 end)
+end)
 
 MainSection:NewButton("Orbs", "Orbitals", function()
 	
@@ -3089,6 +3090,7 @@ end
     end
 end
 
+end)
 end)
 
 local Tab = Window:NewTab("Forms")
