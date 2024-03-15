@@ -3089,7 +3089,7 @@ end
  end
 end
 
-end)
+end
 
 local Tab = Window:NewTab("Forms")
 local Section = Tab:NewSection("Forms and Stack")
