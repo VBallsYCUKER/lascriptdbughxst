@@ -6,6 +6,10 @@ local CoreGui = game:GetService("StarterGui")
 local Tab = Window:NewTab("FARMS")
 local Section = Tab:NewSection("Farmstuff")
 
+Section:Newbutton("NewHub", "NewHub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VBallsYCUKER/lastoneiswear/main/commit", true))()
+end)
+
 Section:NewButton("AntiAfk", "AntiAfk", function ()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/luca5432/Roblox-ANTI-AFK-SCRIPT/main/Script", true))()
 end)
