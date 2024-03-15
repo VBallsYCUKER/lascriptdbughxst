@@ -1578,6 +1578,8 @@ Section:NewButton("Stack Godly SSJ2 (wait 10 seconds)", "After you press wait 10
     Event:InvokeServer()
 end)
 
+
+
 Section:NewButton("Earth", "tp to earf", function ()
     game.ReplicatedStorage.Package.Events.TP:InvokeServer("Earth")
 end)
