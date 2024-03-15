@@ -1576,6 +1576,20 @@ Section:NewButton("Stack Godly SSJ2 (wait 10 seconds)", "After you press wait 10
      
     local Event = game:GetService("ReplicatedStorage").Package.Events.ta
     Event:InvokeServer()
+
+    local A_1 = "Ultra Ego"
+    local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+    Event:InvokeServer()
+
+    local A_1 = "SSJBUI"
+    local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+    Event:InvokeServer()
+
+
+    local A_1 = "Blanco"
+    local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+    Event:InvokeServer()
+
 end)
 
 
