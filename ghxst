@@ -15,12 +15,6 @@ local Section = Tab:NewSection("Forms and Stack")
 
 Section:NewButton("Stack Godly SSJ2 (wait 10 seconds)", "After you press wait 10 seconds", function()
 
-local Forms = {'Blanco', 'Ultra Ego', 'SSJR3', 'SSJR3', 'SSJB3',
-               'God Of Destruction', 'God Of Creation', 'Jiren Ultra Instinct', 'Mastered Ultra Instinct', 'Godly SSJ2',
-               'Ultra Instinct Omen', 'Evil SSJ', 'Blue Evolution', 'Dark Rose', 'Kefla SSJ2', 'SSJ Berserker',
-               'True Rose', 'SSJB Kaioken', 'SSJ Rose', 'SSJ Blue', 'Corrupt SSJ', 'SSJ Rage', 'SSJG', 'SSJ4', 'Mystic',
-               'LSSJ', 'SSJ3', 'Spirit SSJ', 'SSJ2 Majin', 'SSJ2', 'SSJ Kaioken', 'SSJ', 'FSSJ', 'Kaioken'}
-
         wait(10)
         game.ReplicatedStorage.Package.Events.Start:InvokeServer()
         game.ReplicatedStorage.Package.Events.Start:InvokeServer()
